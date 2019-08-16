@@ -29,4 +29,8 @@ class Artist
     self.find(name) ? self.find(name) : self.new(name)
   end
   
+  def self.new_by_filename
+    
+  end
+  
 end
